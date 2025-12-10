@@ -37,14 +37,15 @@ export default function MembersParado() {
                                 }}
                             />
                             <div className="card">
-                                <figure className="relative w-full aspect-square overflow-hidden rounded-md mb-4">                                    
+                                {/* Contenedor Cuadrado Perfecto */}
+                                <figure className="relative w-full aspect-square overflow-hidden rounded-t-lg mb-0">                                     
                                     <Image
-                                        className="max-w-full h-auto"
-                                        srcSet={member.imageSrcSet}
-                                        alt="image"
-                                        src={member.imageSrc}
-                                        width={300}
-                                        height={300}
+                                        // CLAVE: 'object-cover' recorta, 'object-top' enfoca las caras
+                                        className="object-cover object-top hover:scale-105 transition-transform duration-500 !h-full !w-full"
+                                        src={member.imageSrc} // (Next.js prefiere 'src' directo si usas fill)
+                                        alt={member.name}
+                                        fill // <--- ESTO ES MAGIA: Llena el contenedor padre (figure)
+                                        sizes="(max-width: 768px) 100vw, 33vw"
                                     />
                                 </figure>
                                 <div className="card-body px-6 py-5">
