@@ -98,8 +98,8 @@ export const teamMembersM = [
     {
         name: "Brizbana Palomino",
         role: "Coordinadora de Marketing",
-        imageSrc: "/assets/img/avatars/t1.jpg",
-        imageSrcSet: "/assets/img/avatars/t1@2x.jpg 2x",
+        imageSrc: "/assets/img/brizbana_palomino.jpg",
+        imageSrcSet: "/assets/img/brizbana_palomino.jpg 2x",
     }
 ];
 

@@ -49,6 +49,63 @@ export const slidesData = [
   },
 ];
 
+export const blogPosts = [
+  {
+    src: "/assets/img/photos/b12.jpg",
+    srcSet: "/assets/img/photos/b12@2x.jpg 2x",
+    alt: "image 1",
+    category: "Wedding",
+    title: "Ligula tristique quis risus",
+    date: "14 Apr 2022",
+    commentsCount: 4,
+  },
+  {
+    src: "/assets/img/photos/b13.jpg",
+    srcSet: "/assets/img/photos/b13@2x.jpg 2x",
+    alt: "image 2",
+    category: "Engagement",
+    title: "Nullam id dolor elit id nibh",
+    date: "29 Mar 2022",
+    commentsCount: 3,
+  },
+  {
+    src: "/assets/img/photos/b14.jpg",
+    srcSet: "/assets/img/photos/b14@2x.jpg 2x",
+    alt: "image 3",
+    category: "Couples",
+    title: "Ultricies fusce porta elit",
+    date: "26 Feb 2022",
+    commentsCount: 6,
+  },
+  {
+    src: "/assets/img/photos/b15.jpg",
+    srcSet: "/assets/img/photos/b15@2x.jpg 2x",
+    alt: "image 4",
+    category: "Engagement",
+    title: "Morbi leo risus porta eget",
+    date: "17 Jan 2022",
+    commentsCount: 3,
+  },
+  {
+    src: "/assets/img/photos/b16.jpg",
+    srcSet: "/assets/img/photos/b16@2x.jpg 2x",
+    alt: "image 5",
+    category: "Couples",
+    title: "Nulla vitae elit libero",
+    date: "7 Jan 2022",
+    commentsCount: 1,
+  },
+  {
+    src: "/assets/img/photos/b17.jpg",
+    srcSet: "/assets/img/photos/b17@2x.jpg 2x",
+    alt: "image 6",
+    category: "Wedding",
+    title: "Pharetra augue elit sem",
+    date: "2 Jan 2022",
+    commentsCount: 2,
+  },
+];
+
 export const blogPosts2 = [
   {
     src: "/assets/img/photos/b12.jpg",
