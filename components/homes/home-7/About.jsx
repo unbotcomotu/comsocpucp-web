@@ -15,7 +15,7 @@ export default function About() {
             {/* Imagen: Se estira para igualar al texto */}
             <div className="relative h-64 md:h-auto min-h-[300px] rounded-t-lg md:rounded-l-lg md:rounded-tr-none overflow-hidden">
               <Image
-                src="/assets/img/integracion2.jpeg"
+                src="/assets/img/integracion2.jpg"
                 alt="Integración"
                 fill
                 className="object-cover"
